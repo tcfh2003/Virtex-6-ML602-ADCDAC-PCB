@@ -6139,7 +6139,7 @@
 		)
 		(uuid "30a011b3-dd44-43cb-b0ac-ea89f43e9b01")
 	)
-	(label "LA01_N"
+	(label "LA01_N_CC"
 		(at 33.02 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6204,17 +6204,6 @@
 			(justify right bottom)
 		)
 		(uuid "37c232e7-366e-449b-84ef-4202f4d7a6c6")
-	)
-	(label "LA18_P_CC"
-		(at 137.16 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3829e078-af84-45af-85c7-426829f57ecc")
 	)
 	(label "LA20_N"
 		(at 184.15 22.86 90)
@@ -6524,7 +6513,7 @@
 		)
 		(uuid "6e0dd4c1-15fd-4b4e-b525-0258bdc531ff")
 	)
-	(label "LA01_N"
+	(label "LA01_N_CC"
 		(at 86.36 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6699,17 +6688,6 @@
 			(justify left bottom)
 		)
 		(uuid "87cfaf25-27dc-4cff-8211-466f23a434ff")
-	)
-	(label "LA18_N_CC"
-		(at 137.16 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8acf19ca-5b14-440c-adf6-36667d9aa77a")
 	)
 	(label "LA14_N"
 		(at 33.02 68.58 180)
@@ -7085,7 +7063,7 @@
 		)
 		(uuid "b1abf358-0020-4461-83cf-4ef9738946a6")
 	)
-	(label "LA01_P"
+	(label "LA01_P_CC"
 		(at 33.02 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7393,7 +7371,7 @@
 		)
 		(uuid "de660293-4a3b-44ce-bbaf-0da97a9d7c34")
 	)
-	(label "LA01_P"
+	(label "LA01_P_CC"
 		(at 99.06 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17525,6 +17503,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/YAGEO/AC0805JR-071KL?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5APYMj%2Fj7aA%2Fo%3D"
 			(at 78.74 127 0)
 			(effects
 				(font
