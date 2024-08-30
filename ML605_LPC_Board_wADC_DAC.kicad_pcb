@@ -35960,9 +35960,9 @@
 		(start 76.905 111.265)
 		(end 79.445 111.265)
 		(width 1.016)
-		(layer "In2.Cu")
+		(layer "In1.Cu")
 		(net 1)
-		(uuid "c8de0a29-deee-4c1b-89ee-724aaad83138")
+		(uuid "ad24afe9-0bcf-4a40-a16a-f6b654e66365")
 	)
 	(segment
 		(start 76.905 78.245)
