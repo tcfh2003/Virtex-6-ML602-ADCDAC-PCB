@@ -24790,7 +24790,7 @@
 		(descr "ASP-134604-01-1")
 		(tags "Connector")
 		(property "Reference" "J1"
-			(at 0.444 0 -90)
+			(at -31.115 0 0)
 			(layer "B.SilkS")
 			(uuid "c801d939-2f30-4cd7-9c82-dad97390f546")
 			(effects
@@ -25176,18 +25176,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "4fc14707-8881-4d6e-b3ce-203660b1d4d1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0.444 0 -90)
-			(layer "B.Fab")
-			(uuid "186f83eb-85ec-4b3d-b777-b03773a0bd4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at -27.191 -3.05 270)
