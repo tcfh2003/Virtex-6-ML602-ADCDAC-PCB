@@ -29,7 +29,7 @@
         "fab_text_size_h": 1.016,
         "fab_text_size_v": 1.016,
         "fab_text_thickness": 0.15239999999999998,
-        "fab_text_upright": false,
+        "fab_text_upright": true,
         "other_line_width": 0.1016,
         "other_text_italic": false,
         "other_text_size_h": 1.016,
