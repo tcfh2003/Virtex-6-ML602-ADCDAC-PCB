@@ -1,0 +1,28 @@
+Reference,Value,Datasheet,Footprint,Mouser Link,LCSC,Qty,DNP,Mouser Code,Mouser Unit Price,Mouser Total Price
+"C1,C23,C24,C27,C28",100u,~,Capacitor_SMD:CP_Elec_5x5.3,https://ro.mouser.com/ProductDetail/Wurth-Elektronik/865080142007?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw69LRayu%2FYxyM%3D,C15008 (MLCC 1206),5,,710-865080142007 ,0.693,6.93
+"C2,C5,C7,C8,C11,C12,C13,C19,C20,C34,C35",10u,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A106KOQNNNE?qs=sGAEpiMZZMsh%252B1woXyUXj7iNKXiFkBmwjufexzBEAvI%3D,C408141,11,,187-CL21A106KOQNNNE ,0.178,2.67
+"C3,C4,C6,C9,C10,C14,C15,C16,C17,C18,C21,C22,C25,C29,C31,C32,C33,C36,C37,C38",100n,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://ro.mouser.com/ProductDetail/KEMET/C0805C104Z5VACTU?qs=sGAEpiMZZMsh%252B1woXyUXjyXjyVLE9VtBgpQWmxyg8NY%3D,C49678,20,,80-C0805C104Z5V ,0.109,2.725
+"C26,C30",100p,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://ro.mouser.com/ProductDetail/Wurth-Elektronik/885012007034?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6gKtaRQZhDXg%3D,C1790,2,,710-885012007034 ,0.46,0.92
+"U4,U5",LMH6702MA,http://www.ti.com/lit/ds/symlink/lmh6702.pdf,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://ro.mouser.com/ProductDetail/Texas-Instruments/LMH6720MA-NOPB?qs=7lkVKPoqpbYEx%252BsV5%252BDiyQ%3D%3D,,2,,926-LMH6720MA/NOPB ,10.54,21.08
+U3,NCV317,http://www.ti.com/lit/ds/symlink/lm317.pdf,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://ro.mouser.com/ProductDetail/onsemi/NCV317MBSTT3G?qs=3PKVEWFFm2%252BSS0n2wMgniA%3D%3D,,1,,863-NCV317MBSTT3G ,1.98,1.98
+"U1,U2",LMV7219M7,https://www.ti.com/lit/ds/symlink/lmv7219.pdf,Package_TO_SOT_SMD:SOT-353_SC-70-5,https://ro.mouser.com/ProductDetail/Texas-Instruments/LMV7219M5X-NOPB?qs=7lkVKPoqpbYs%252BT8enjO7tg%3D%3D,,2,,926-LMV7219M5X/NOPB ,11.78,23.56
+"R40,R41,R42,R43,R44,R45,R46,R47",620,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://ro.mouser.com/ProductDetail/Kamaya/RMC1-10-621JTP?qs=sGAEpiMZZMtlubZbdhIBID6%252BysFJiJfH0mUaVXuoIeY%3D,,8,,791-RMC1/10-621JTP ,0.084,0.84
+"R32,R33,R36,R37,R38,R39",50,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW080550R0FKTA?qs=sGAEpiMZZMtlubZbdhIBIHdFOaufIt3b7Pt0cew8QLQ%3D,,6,,71-CRCW0805-50 ,0.941,9.41
+"R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23",39,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://ro.mouser.com/ProductDetail/Susumu/RR1220Q-39R2-D-M?qs=sGAEpiMZZMtlubZbdhIBIIeqUIwQIz3%2FPnwMVMtpHPc%3D,,21,,754-RR1220Q-39R2D-M ,0.262,6.55
+"R2,R24,R25,R26,R27,R28,R29,R30,R31,R34,R35,R48",1k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://ro.mouser.com/ProductDetail/YAGEO/AC0805JR-071KL?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5APYMj%2Fj7aA%2Fo%3D,,12,,603-AC0805JR-071KL ,0.079,1.185
+R1,5k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://ro.mouser.com/ProductDetail/SEI-Stackpole/RMCF0805FT4K99?qs=sGAEpiMZZMtlubZbdhIBIA%252B43obPAL0tO%2FGiDX3Qiuc%3D,,1,,708-RMCF0805FT4K99 ,0.46,0.46
+L1,100u,~,Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,https://ro.mouser.com/ProductDetail/TAIYO-YUDEN/LBR2012T101K?qs=PzICbMaShUfAbJzk8mcUcA%3D%3D,,1,,963-LBR2012T101K ,0.46,0.46
+"JP1,JP2",SolderJumper_2_Open,~,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,N/A,,2,DNP,,,0
+"J10,J11,J12",Conn_02x06_Odd_Even,~,Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical,https://ro.mouser.com/ProductDetail/Samtec/SSW-106-01-T-D?qs=iT52DjcXuds3ZRKSeKutcw%3D%3D,,3,,200-SSW10601TD ,5.59,16.77
+"J4,J5,J8,J9",SMA Connector,~,Connector_Coaxial:SMA_Amphenol_132134_Vertical,https://ro.mouser.com/ProductDetail/LPRS/SMA-CONNECTOR?qs=j%252B1pi9TdxUYkOiITvzJM8A%3D%3D,,4,,471-SMACONNECTOR ,8.51,34.04
+"J2,J3,J6,J7,J13,J14",Conn_01x03_Pin,~,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left,https://ro.mouser.com/ProductDetail/Amphenol-FCI/10129380-903001BLF?qs=0lQeLiL1qyY7ch20dCKSWg%3D%3D,,6,,649-1012938090301BLF ,0.371,3.71
+J1,ASP-134604-01,https://componentsearchengine.com/Datasheets/2/ASP-134604-01.pdf,ASP13460401,https://ro.mouser.com/ProductDetail/Samtec/ASP-134604-01?qs=Rp%2FUEJiACm00i8g2mQ6XNw%3D%3D,,1,,200-ASP-134604-01 ,95.73,95.73
+IC4,DAC5652IPFB,http://www.ti.com/lit/gpn/dac5652,Package_QFP:TQFP-48_7x7mm_P0.5mm,https://ro.mouser.com/ProductDetail/Texas-Instruments/DAC5652IPFB?qs=vul0MlC%2Fa1cvaqYYgQzY1A%3D%3D,,1,,595-DAC5652IPFB ,62.27,62.27
+"IC2,IC3",AD8137YRZ-REEL,https://www.arrow.com/en/products/ad8137yrz-reel/analog-devices,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://ro.mouser.com/ProductDetail/Analog-Devices/AD8137YRZ-REEL?qs=%2FtpEQrCGXCwvx9BEhEk72g%3D%3D,,2,,584-AD8137YRZ-R ,15.39,30.78
+IC1,ADC10D040CIVS_NOPB,http://www.ti.com/lit/gpn/adc10d040,Package_QFP:TQFP-48_7x7mm_P0.5mm,https://ro.mouser.com/ProductDetail/Texas-Instruments/ADC10D040CIVS-NOPB?qs=7X5t%252BdzoRHCI2Z2wyV07LA%3D%3D,,1,,926-ADC10D040CIVSNPB ,63.36,63.36
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,TOTAL PRICE (no VAT) :,385.43
+,,,,,,,,,VAT (in Czech Republic):,21%
+,,,,,,,,,,
+,,,,,,,,,TOTAL PRICE (with VAT):,466.3703
