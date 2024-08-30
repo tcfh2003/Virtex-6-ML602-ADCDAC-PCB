@@ -33985,7 +33985,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND /  IN1"
+	(gr_text "IN1 /  GND"
 		(at 162 97.77 0)
 		(layer "F.SilkS" knockout)
 		(uuid "47abc26c-3988-42fd-8005-38f4cded0fc0")
@@ -34050,7 +34050,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND /  IN2"
+	(gr_text "IN2 /  GND"
 		(at 161.995 148 0)
 		(layer "F.SilkS" knockout)
 		(uuid "6583cf0b-d2c7-4a34-8a23-ea165b4d77dd")
