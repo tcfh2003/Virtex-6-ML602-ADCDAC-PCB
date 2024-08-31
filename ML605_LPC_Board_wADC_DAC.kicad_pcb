@@ -33998,7 +33998,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ADC/DAC & Breakout\nFPGA Meazannine Card"
+	(gr_text "ADC/DAC & Breakout\nFPGA Meazzannine Card"
 		(at 94.05 140.475 0)
 		(layer "F.SilkS" knockout)
 		(uuid "49139213-12af-4fac-bc88-39dd994df804")

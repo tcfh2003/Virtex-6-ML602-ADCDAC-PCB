@@ -3885,7 +3885,7 @@
 		)
 		(uuid "f9920748-3155-4efc-b9c9-8425bf811400")
 	)
-	(text "GSET is internally pulled up HIGH by 100kOhm => IREFA = IREFB = I_BIASJ_A\nIREF = 32 x 1.2/R43 = 32 x 1.2/2k = 19.2mA"
+	(text "GSET is internally pulled up HIGH by 100kOhm => IREFA = IREFB = I_BIASJ_A\nIREF = 32 x 1.2/(R34 + R35) = 32 x 1.2/2k = 19.2mA"
 		(exclude_from_sim no)
 		(at 132.08 99.568 0)
 		(effects
