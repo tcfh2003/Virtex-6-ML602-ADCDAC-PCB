@@ -2648,12 +2648,6 @@
 		(uuid "8d1089e0-0c62-4e53-bb89-4b0d7ad7b3bb")
 	)
 	(junction
-		(at 229.87 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "958a2ee5-941c-48be-8ab3-8f0973419ae0")
-	)
-	(junction
 		(at 175.26 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2672,10 +2666,22 @@
 		(uuid "b63ea7d8-4ffb-45c0-bf97-3e3503d56455")
 	)
 	(junction
+		(at 229.87 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc5284ed-861a-45af-bf2f-d3553d777d80")
+	)
+	(junction
 		(at 259.08 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde4a3b2-0977-4109-ab3a-2aad7b2716d1")
+	)
+	(junction
+		(at 229.87 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca7794a9-96a5-4792-b1a3-da951ff17919")
 	)
 	(junction
 		(at 207.01 121.92)
@@ -2688,12 +2694,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9ea50ef-052a-4d96-95ed-0d53e1856113")
-	)
-	(junction
-		(at 229.87 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbebcd54-ea7a-4b7d-9be1-68b6122c5740")
 	)
 	(junction
 		(at 175.26 78.74)
@@ -2987,6 +2987,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 119.38) (xy 246.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c9f40e-f049-45b5-b2b4-8b333c13f106")
+	)
+	(wire
+		(pts
 			(xy 207.01 46.99) (xy 207.01 54.61)
 		)
 		(stroke
@@ -3094,16 +3104,6 @@
 			(type default)
 		)
 		(uuid "53874d9e-63b9-4fae-a41a-347b9bac2d63")
-	)
-	(wire
-		(pts
-			(xy 229.87 119.38) (xy 246.38 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "566819bf-4d98-471b-8830-9761488f2199")
 	)
 	(wire
 		(pts
@@ -3234,6 +3234,16 @@
 			(type default)
 		)
 		(uuid "7d20249e-f901-43e3-ae9d-024c0467f953")
+	)
+	(wire
+		(pts
+			(xy 229.87 44.45) (xy 234.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8012a848-e0f3-49ee-b21b-6c47fa156d11")
 	)
 	(wire
 		(pts
@@ -3497,6 +3507,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 44.45) (xy 246.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc9dd44-4ef9-41e6-b028-e8f2e9c29c65")
+	)
+	(wire
+		(pts
+			(xy 229.87 119.38) (xy 234.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0165e25-480b-4ee0-bda0-4162f13cfcb4")
+	)
+	(wire
+		(pts
 			(xy 175.26 54.61) (xy 190.5 54.61)
 		)
 		(stroke
@@ -3704,16 +3734,6 @@
 			(type default)
 		)
 		(uuid "d7982263-ba55-4260-af34-2a330146239e")
-	)
-	(wire
-		(pts
-			(xy 229.87 44.45) (xy 246.38 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb7ecb5-1a9a-499e-9163-08d1040deb0a")
 	)
 	(wire
 		(pts
@@ -6715,6 +6735,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 237.49 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e705d2c-0b57-43bd-8053-9f803ccb36fa")
+		(property "Reference" "R49"
+			(at 237.49 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 237.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 237.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 237.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW080550R0FKTA?qs=sGAEpiMZZMtlubZbdhIBIHdFOaufIt3b7Pt0cew8QLQ%3D"
+			(at 237.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9119dc35-5a30-4aa6-95f0-6f4debbb8b59")
+		)
+		(pin "2"
+			(uuid "beea2932-58cc-4c5e-b060-6c5b75f4fd12")
+		)
+		(instances
+			(project "ML605_LPC_Board_wADC_DAC"
+				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993/83873eff-166e-4e25-b51a-e3caec22538a"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 254 49.53 270)
 		(unit 1)
@@ -8976,6 +9073,83 @@
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993/83873eff-166e-4e25-b51a-e3caec22538a"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 237.49 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d6ee9c-76d2-4255-9c33-b01ddf31a95f")
+		(property "Reference" "R50"
+			(at 237.49 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 237.49 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/Vishay-Dale/CRCW080550R0FKTA?qs=sGAEpiMZZMtlubZbdhIBIHdFOaufIt3b7Pt0cew8QLQ%3D"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "815083f7-6dd8-4062-b895-2337d31a8e86")
+		)
+		(pin "2"
+			(uuid "a0f9a340-1d8f-44a3-8d6a-8e1c1e36a390")
+		)
+		(instances
+			(project "ML605_LPC_Board_wADC_DAC"
+				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993/83873eff-166e-4e25-b51a-e3caec22538a"
+					(reference "R50")
 					(unit 1)
 				)
 			)
