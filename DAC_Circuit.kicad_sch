@@ -7389,7 +7389,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6702MA"
+		(property "Value" "LMH6720MA"
 			(at 232.41 121.031 0)
 			(effects
 				(font
@@ -10446,7 +10446,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6702MA"
+		(property "Value" "LMH6720MA"
 			(at 232.41 46.101 0)
 			(effects
 				(font

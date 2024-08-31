@@ -16847,7 +16847,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6702MA"
+		(property "Value" "LMH6720MA"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "7e090931-dd54-4b26-b86f-e69562850572")
@@ -20978,7 +20978,7 @@
 				)
 			)
 		)
-		(property "Value" "LMH6702MA"
+		(property "Value" "LMH6720MA"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "98c0871b-915c-435c-82b8-ada35e5b03f9")
