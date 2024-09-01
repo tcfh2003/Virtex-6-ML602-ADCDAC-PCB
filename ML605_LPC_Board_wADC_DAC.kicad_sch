@@ -5894,16 +5894,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 82.55 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5321e73-626f-48e6-a98e-b719b48001cb")
-	)
-	(wire
-		(pts
 			(xy 137.16 26.67) (xy 144.78 26.67)
 		)
 		(stroke
@@ -5914,7 +5904,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 127) (xy 76.2 127)
+			(xy 58.42 127) (xy 82.55 127)
 		)
 		(stroke
 			(width 0)
@@ -18057,83 +18047,6 @@
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
 					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 78.74 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f72ae362-11d2-4001-b4dd-ff6d958c365f")
-		(property "Reference" "R48"
-			(at 78.74 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 78.74 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/YAGEO/AC0805JR-071KL?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5APYMj%2Fj7aA%2Fo%3D"
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a617e0a4-1e64-4a8f-bcd0-3459651323a1")
-		)
-		(pin "2"
-			(uuid "bf8c1857-d032-4276-a40c-6a5eec4dcba0")
-		)
-		(instances
-			(project "ML605_LPC_Board_wADC_DAC"
-				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
-					(reference "R48")
 					(unit 1)
 				)
 			)
