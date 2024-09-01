@@ -3000,184 +3000,6 @@
 				)
 			)
 		)
-		(symbol "Comparator:LMV7219M7"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LMV7219M7"
-				(at -1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv7219.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Low-Power High-Speed Push-Pull Output Comparator, SC-70-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cmp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?353*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMV7219M7_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LMV7219M7_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -4213,6 +4035,245 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Interface:SN65LVDS2DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN65LVDS2DBV"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Speed Differential Line Receiver, 630Mbps, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LVDS Receiver TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN65LVDS2DBV_1_0"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.175 -1.651)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "R"
+					(at 0 -0.127 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS2DBV_1_1"
+				(polyline
+					(pts
+						(xy -5.715 -1.651) (xy -3.81 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 1.397) (xy -2.667 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.127) (xy 5.08 -0.127)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.937) (xy -2.54 3.683) (xy 5.08 -0.127) (xy -2.54 -3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5490,16 +5551,16 @@
 		(uuid "0b13fb07-f237-4911-927c-0f17e0b284d8")
 	)
 	(junction
-		(at 130.81 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e1514b2-ef7a-410d-9375-017241e4cf87")
-	)
-	(junction
 		(at 162.56 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "365a21bd-4595-4675-898d-afa3e8eefbc8")
+	)
+	(junction
+		(at 130.81 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f0d8f1-7bd0-466e-bd53-b68a1db7fca5")
 	)
 	(junction
 		(at 195.58 176.53)
@@ -5903,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 144.78 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca8a2cfd-2f4e-4c71-bb99-f87b7ee4b32e")
-	)
-	(wire
-		(pts
 			(xy 162.56 201.93) (xy 162.56 200.66)
 		)
 		(stroke
@@ -5993,6 +6044,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 49.53) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e686c495-f760-4bf6-9711-d4994ab19f53")
+	)
+	(wire
+		(pts
 			(xy 138.43 91.44) (xy 144.78 91.44)
 		)
 		(stroke
@@ -6033,7 +6094,7 @@
 	)
 	(text "MODE = HIGH => DA & DB in parallel"
 		(exclude_from_sim no)
-		(at 138.684 81.28 0)
+		(at 141.986 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,7 +6180,7 @@
 		(uuid "0cd7dfc0-70ca-4cf7-9bc2-02db184bbc84")
 	)
 	(label "CLK0_M2C_P"
-		(at 109.22 46.99 180)
+		(at 104.14 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6999,7 +7060,7 @@
 		(uuid "908460ed-a0f4-4ee1-9e42-2f23b0741335")
 	)
 	(label "LA26_P"
-		(at 115.57 93.98 180)
+		(at 105.41 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7274,7 +7335,7 @@
 		(uuid "ae458506-92b8-4a91-aeee-e85befb471f5")
 	)
 	(label "CLK0_M2C_N"
-		(at 109.22 52.07 180)
+		(at 104.14 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7307,7 +7368,7 @@
 		(uuid "b0679f41-851c-40ad-b5fe-3140eda11904")
 	)
 	(label "LA26_N"
-		(at 115.57 99.06 180)
+		(at 105.41 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8090,7 +8151,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 92.71 92.71 0)
+		(at 91.44 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8099,7 +8160,7 @@
 		(fields_autoplaced yes)
 		(uuid "067985b4-7b71-46a2-9a63-c7862a77a984")
 		(property "Reference" "#PWR0186"
-			(at 92.71 96.52 0)
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8169,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 92.71 87.63 0)
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 92.71 0)
+			(at 91.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 92.71 0)
+			(at 91.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 92.71 92.71 0)
+			(at 91.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,101 +9176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LMV7219M7")
-		(at 116.84 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e632d2b-ac96-45f4-bbd5-7f89be83e40d")
-		(property "Reference" "U1"
-			(at 121.666 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV7219M7"
-			(at 125.984 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 114.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv7219.pdf"
-			(at 116.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Low-Power High-Speed Push-Pull Output Comparator, SC-70-5"
-			(at 116.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/Texas-Instruments/LMV7219M5X-NOPB?qs=7lkVKPoqpbYs%252BT8enjO7tg%3D%3D"
-			(at 116.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 116.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9be4a879-4f60-41d1-ae96-42ab7804d102")
-		)
-		(pin "2"
-			(uuid "5eac8ab4-0bbf-46fd-9767-0f37dba01f89")
-		)
-		(pin "3"
-			(uuid "0c9a2473-9b1d-4f49-806d-377fa5b89737")
-		)
-		(pin "5"
-			(uuid "0d2bac37-759d-4512-b234-e52ec2a0b3db")
-		)
-		(pin "1"
-			(uuid "64dd2c8a-b762-4f65-a247-a3e010c58f97")
-		)
-		(instances
-			(project "ML605_LPC_Board_wADC_DAC"
-				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 58.42 129.54 90)
 		(unit 1)
@@ -9946,6 +9912,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 71.12 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "N/A"
 			(at 71.12 252.73 0)
 			(effects
 				(font
@@ -10719,7 +10694,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 114.3 41.91 0)
+		(at 116.84 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10728,7 +10703,7 @@
 		(fields_autoplaced yes)
 		(uuid "50c9aa22-0f3d-4bde-a8c8-4e5155e5fc89")
 		(property "Reference" "#PWR073"
-			(at 114.3 45.72 0)
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +10712,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 114.3 36.83 0)
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 41.91 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,7 +10729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 41.91 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,7 +10738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 114.3 41.91 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,7 +12189,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 120.65 104.14 0)
+		(at 118.11 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12223,7 +12198,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dff97b2-c136-4dc2-9ab5-4746227973ee")
 		(property "Reference" "#PWR076"
-			(at 120.65 110.49 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12232,7 +12207,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 120.65 107.95 0)
+			(at 118.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +12215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 104.14 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12249,7 +12224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 104.14 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +12233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 120.65 104.14 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12280,7 +12255,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 90.17 50.8 0)
+		(at 85.09 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12289,7 +12264,7 @@
 		(fields_autoplaced yes)
 		(uuid "80a41830-1325-4153-abd3-85612fb68dbc")
 		(property "Reference" "#PWR0185"
-			(at 90.17 57.15 0)
+			(at 85.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,7 +12273,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 90.17 54.61 0)
+			(at 85.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 50.8 0)
+			(at 85.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +12290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 50.8 0)
+			(at 85.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12324,7 +12299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 90.17 50.8 0)
+			(at 85.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12388,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 92.71 95.25 180)
+		(at 91.44 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12421,7 +12396,7 @@
 		(dnp no)
 		(uuid "8651d29d-8c97-4f6f-ab50-32cf22959a57")
 		(property "Reference" "C38"
-			(at 95.504 93.218 0)
+			(at 94.234 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12429,7 +12404,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 96.266 97.028 0)
+			(at 94.996 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +12412,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 92.71 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12446,7 +12421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,7 +12430,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12439,7 @@
 			)
 		)
 		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/KEMET/C0805C104Z5VACTU?qs=sGAEpiMZZMsh%252B1woXyUXjyXjyVLE9VtBgpQWmxyg8NY%3D"
-			(at 92.71 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12448,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 92.71 95.25 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13361,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 120.65 88.9 0)
+		(at 118.11 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13395,7 +13370,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fa01b78-2e1e-46a5-96e9-9626de39744e")
 		(property "Reference" "#PWR075"
-			(at 120.65 92.71 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13379,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 120.65 83.82 0)
+			(at 118.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 88.9 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 88.9 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +13405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 120.65 88.9 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14927,6 +14902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Link" "N/A"
+			(at 71.12 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
@@ -15314,101 +15298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LMV7219M7")
-		(at 123.19 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be210ad3-738d-4f01-bf0c-c7d7a6c00fd5")
-		(property "Reference" "U2"
-			(at 127.508 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV7219M7"
-			(at 131.826 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 120.65 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv7219.pdf"
-			(at 123.19 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Low-Power High-Speed Push-Pull Output Comparator, SC-70-5"
-			(at 123.19 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/Texas-Instruments/LMV7219M5X-NOPB?qs=7lkVKPoqpbYs%252BT8enjO7tg%3D%3D"
-			(at 123.19 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 123.19 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be8b27a0-56fc-4600-926c-2505b65a209d")
-		)
-		(pin "5"
-			(uuid "2f15c82c-798c-48f8-a182-c3bf035db54d")
-		)
-		(pin "4"
-			(uuid "296c3702-9958-4c44-985f-bd6be31dddd9")
-		)
-		(pin "3"
-			(uuid "f442e346-1259-4ecb-81bf-3db37ebcfe59")
-		)
-		(pin "1"
-			(uuid "14a9b905-d818-47ec-a538-95faae338d6a")
-		)
-		(instances
-			(project "ML605_LPC_Board_wADC_DAC"
-				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 33.02 193.04 270)
 		(unit 1)
@@ -15543,7 +15432,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 90.17 45.72 0)
+		(at 85.09 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15552,7 +15441,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf323764-0368-4fdb-ac31-cc9e18d36cc6")
 		(property "Reference" "#PWR0184"
-			(at 90.17 49.53 0)
+			(at 85.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15561,7 +15450,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 90.17 40.64 0)
+			(at 85.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15569,7 +15458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 45.72 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15578,7 +15467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 45.72 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,7 +15476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 90.17 45.72 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,7 +16557,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 114.3 57.15 0)
+		(at 116.84 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16677,7 +16566,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ea8ce5-f8f5-4a8b-8658-362df1c7fa35")
 		(property "Reference" "#PWR074"
-			(at 114.3 63.5 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16686,7 +16575,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 114.3 60.96 0)
+			(at 116.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16694,7 +16583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 57.15 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16703,7 +16592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 57.15 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16712,7 +16601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 114.3 57.15 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,7 +17046,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 90.17 48.26 180)
+		(at 85.09 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17165,7 +17054,7 @@
 		(dnp no)
 		(uuid "e0c796ad-0546-496b-95ff-7793097c5312")
 		(property "Reference" "C37"
-			(at 92.964 46.228 0)
+			(at 87.884 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,7 +17062,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 93.726 50.038 0)
+			(at 88.646 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17181,7 +17070,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 90.17 48.26 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17190,7 +17079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17199,7 +17088,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.17 48.26 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17208,7 +17097,7 @@
 			)
 		)
 		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/KEMET/C0805C104Z5VACTU?qs=sGAEpiMZZMsh%252B1woXyUXjyXjyVLE9VtBgpQWmxyg8NY%3D"
-			(at 90.17 48.26 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17217,7 +17106,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 90.17 48.26 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17775,7 +17664,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 92.71 97.79 0)
+		(at 91.44 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17784,7 +17673,7 @@
 		(fields_autoplaced yes)
 		(uuid "efd6fe8d-2891-4666-8cf4-34448744cb90")
 		(property "Reference" "#PWR0187"
-			(at 92.71 104.14 0)
+			(at 91.44 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17793,7 +17682,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 92.71 101.6 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17801,7 +17690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 97.79 0)
+			(at 91.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17810,7 +17699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 97.79 0)
+			(at 91.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17819,7 +17708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 92.71 97.79 0)
+			(at 91.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18251,6 +18140,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface:SN65LVDS2DBV")
+		(at 116.84 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8153a3c-32b5-4b7c-83b2-edcc8f73b775")
+		(property "Reference" "U1"
+			(at 128.778 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65LVDS2DBV"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed Differential Line Receiver, 630Mbps, SOT-23-5"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/Texas-Instruments/SN65LVDS2DBVR?qs=0le1rQK8zxoNN%2Fzey0Z7qg%3D%3D"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "abef6f78-747a-4ff3-ba00-58ddeb95a24e")
+		)
+		(pin "1"
+			(uuid "6ac382a5-9c38-4424-afc9-ba11980dd8d1")
+		)
+		(pin "2"
+			(uuid "e1f1da07-a7e4-493b-bf56-48f127e26af4")
+		)
+		(pin "4"
+			(uuid "e1e48c97-8b3d-455a-bea4-fa8e9b844700")
+		)
+		(pin "3"
+			(uuid "236f86aa-60dc-4b01-81d7-a1d631842353")
+		)
+		(instances
+			(project "ML605_LPC_Board_wADC_DAC"
+				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 33.02 30.48 270)
 		(unit 1)
@@ -18379,6 +18353,91 @@
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface:SN65LVDS2DBV")
+		(at 118.11 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbe0eb41-188f-47d1-901a-54685cf8adce")
+		(property "Reference" "U2"
+			(at 130.048 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65LVDS2DBV"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed Differential Line Receiver, 630Mbps, SOT-23-5"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://ro.mouser.com/ProductDetail/Texas-Instruments/SN65LVDS2DBVR?qs=0le1rQK8zxoNN%2Fzey0Z7qg%3D%3D"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d4e7639d-3302-4779-addf-cdef935814eb")
+		)
+		(pin "1"
+			(uuid "2fa828a4-5301-45da-abd9-cda336917f8d")
+		)
+		(pin "2"
+			(uuid "b8a47a1d-1764-4548-a3ea-9615b7538cd2")
+		)
+		(pin "4"
+			(uuid "434146b9-251b-4f93-add8-50d2be8e39f3")
+		)
+		(pin "3"
+			(uuid "a9ee4c76-9404-4c14-a682-15d7614d1db8")
+		)
+		(instances
+			(project "ML605_LPC_Board_wADC_DAC"
+				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
+					(reference "U2")
 					(unit 1)
 				)
 			)
