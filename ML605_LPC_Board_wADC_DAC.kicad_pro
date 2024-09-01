@@ -736,6 +736,10 @@
     [
       "83873eff-166e-4e25-b51a-e3caec22538a",
       "DAC Circuit"
+    ],
+    [
+      "f6c4dbaf-9ed0-416d-bf2a-598c3d1d7315",
+      "Identification_EEPROM"
     ]
   ],
   "text_variables": {}

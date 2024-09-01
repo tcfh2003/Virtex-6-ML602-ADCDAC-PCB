@@ -5538,10 +5538,6 @@
 		(uuid "f87eb505-3280-42a7-a86f-24f5a70c651c")
 	)
 	(no_connect
-		(at 33.02 200.66)
-		(uuid "017fb24e-44ab-47ff-a939-8de8acadf99d")
-	)
-	(no_connect
 		(at 33.02 38.1)
 		(uuid "0f17b3d1-a2da-48f5-b9b5-4e809328de18")
 	)
@@ -5552,10 +5548,6 @@
 	(no_connect
 		(at 33.02 195.58)
 		(uuid "19c231a3-f2f2-4a1b-a2fa-5eb0746fa800")
-	)
-	(no_connect
-		(at 33.02 198.12)
-		(uuid "19ed3a4d-3c4d-44af-b422-ce360dfda089")
 	)
 	(no_connect
 		(at 58.42 124.46)
@@ -5641,6 +5633,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 256.54) (xy 50.8 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11939314-cab8-4d72-93c0-a12f196b9be1")
+	)
+	(wire
+		(pts
 			(xy 194.31 193.04) (xy 194.31 199.39)
 		)
 		(stroke
@@ -5661,6 +5663,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 257.81) (xy 49.53 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b396d6-beb9-4d94-bbc4-1f17b25d486e")
+	)
+	(wire
+		(pts
 			(xy 191.77 176.53) (xy 195.58 176.53)
 		)
 		(stroke
@@ -5668,6 +5680,26 @@
 			(type default)
 		)
 		(uuid "23f6e94a-f4d4-4bcb-b1b3-d967c4666c90")
+	)
+	(wire
+		(pts
+			(xy 26.67 198.12) (xy 26.67 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30615911-ec0c-4807-93cc-a8918045284a")
+	)
+	(wire
+		(pts
+			(xy 50.8 252.73) (xy 50.8 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a8941c-f7ea-4e30-aad9-915c0206bd0b")
 	)
 	(wire
 		(pts
@@ -5751,16 +5783,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 106.68) (xy 33.02 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b8bfa9d-cde4-4ff1-9d41-04eeb4619208")
-	)
-	(wire
-		(pts
 			(xy 185.42 204.47) (xy 185.42 208.28)
 		)
 		(stroke
@@ -5768,6 +5790,16 @@
 			(type default)
 		)
 		(uuid "82caea8e-ae9f-4bfb-ad7b-878f112489b0")
+	)
+	(wire
+		(pts
+			(xy 52.07 256.54) (xy 50.8 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84398cd6-341a-4f51-932f-20871173e383")
 	)
 	(wire
 		(pts
@@ -5781,6 +5813,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 198.12) (xy 33.02 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7c2964-ec11-4e5a-9e78-71ecad4254e9")
+	)
+	(wire
+		(pts
 			(xy 130.81 106.68) (xy 130.81 96.52)
 		)
 		(stroke
@@ -5788,6 +5830,16 @@
 			(type default)
 		)
 		(uuid "988377ff-8e7b-4a18-ab11-88a59dc55151")
+	)
+	(wire
+		(pts
+			(xy 81.28 127) (xy 82.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5321e73-626f-48e6-a98e-b719b48001cb")
 	)
 	(wire
 		(pts
@@ -5821,13 +5873,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 210.82) (xy 33.02 210.82)
+			(xy 82.55 127) (xy 82.55 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcc9051a-f9ee-4868-9ddf-6e3b8a0e7b68")
+		(uuid "bdccd826-5729-41e2-be6d-31688373e1eb")
 	)
 	(wire
 		(pts
@@ -5871,6 +5923,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 200.66) (xy 33.02 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd70b46-ec4c-4227-a871-b3f281960018")
+	)
+	(wire
+		(pts
+			(xy 52.07 254) (xy 50.8 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf681db8-4be6-4e24-a487-2c6e7cc16837")
+	)
+	(wire
+		(pts
 			(xy 144.78 106.68) (xy 130.81 106.68)
 		)
 		(stroke
@@ -5878,6 +5950,16 @@
 			(type default)
 		)
 		(uuid "d28aa641-70ac-4a20-a838-8781917a98d4")
+	)
+	(wire
+		(pts
+			(xy 50.8 252.73) (xy 49.53 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5085b1b-6ff7-41dc-aafb-c1e10161db8d")
 	)
 	(wire
 		(pts
@@ -5969,6 +6051,17 @@
 			(justify right bottom)
 		)
 		(uuid "00135683-d03a-4d1c-aec9-b0d7e78d87e3")
+	)
+	(label "GA0"
+		(at 52.07 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02d2673e-1384-4532-bfbd-f02fbbc81cfb")
 	)
 	(label "LA29_N"
 		(at 58.42 99.06 0)
@@ -6300,7 +6393,7 @@
 		)
 		(uuid "30a011b3-dd44-43cb-b0ac-ea89f43e9b01")
 	)
-	(label "LA01_N_CC"
+	(label "LA01_N"
 		(at 33.02 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6619,6 +6712,17 @@
 		)
 		(uuid "66f9ce8f-8451-4320-9db4-1ebc3216ebf0")
 	)
+	(label "SDA"
+		(at 41.91 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67184205-b1d4-4883-b8a1-5d2540c7378b")
+	)
 	(label "LA26_N"
 		(at 33.02 190.5 180)
 		(fields_autoplaced yes)
@@ -6674,7 +6778,7 @@
 		)
 		(uuid "6e0dd4c1-15fd-4b4e-b525-0258bdc531ff")
 	)
-	(label "LA01_N_CC"
+	(label "LA01_N"
 		(at 86.36 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7224,7 +7328,7 @@
 		)
 		(uuid "b1abf358-0020-4461-83cf-4ef9738946a6")
 	)
-	(label "LA01_P_CC"
+	(label "LA01_P"
 		(at 33.02 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7422,6 +7526,17 @@
 		)
 		(uuid "ca19b819-8486-45c7-a023-3959e12e933b")
 	)
+	(label "GA1"
+		(at 52.07 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd49aa4c-2531-4179-9511-d61725049f6f")
+	)
 	(label "LA20_N"
 		(at 58.42 76.2 0)
 		(fields_autoplaced yes)
@@ -7532,7 +7647,7 @@
 		)
 		(uuid "de660293-4a3b-44ce-bbaf-0da97a9d7c34")
 	)
-	(label "LA01_P_CC"
+	(label "LA01_P"
 		(at 99.06 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7707,6 +7822,17 @@
 			(justify right bottom)
 		)
 		(uuid "f1cb1b2c-6f4c-4c47-b02a-694e2e062ee4")
+	)
+	(label "SCL"
+		(at 41.91 257.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f299d348-d795-425f-a302-27d73d01b259")
 	)
 	(label "LA10_P"
 		(at 33.02 55.88 180)
@@ -9218,73 +9344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 81.28 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22cf7660-7430-49f8-9671-2d593202a193")
-		(property "Reference" "#PWR0175"
-			(at 77.47 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 85.09 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 81.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "079a89ff-1cd2-4b14-b0b8-032956ec3e17")
-		)
-		(instances
-			(project "ML605_LPC_Board_wADC_DAC"
-				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 86.36 196.85 270)
 		(unit 1)
@@ -9574,6 +9633,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 82.55 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "334311a4-22fe-4c1b-a887-d108948cdfa7")
+		(property "Reference" "#PWR01"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 82.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9baa8d9-9512-4757-b0fa-f58379273153")
+		)
+		(instances
+			(project "ML605_LPC_Board_wADC_DAC"
+				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 99.06 175.26 270)
 		(unit 1)
@@ -9776,7 +9901,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 41.91 242.57 0)
+		(at 71.12 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9785,7 +9910,7 @@
 		(fields_autoplaced yes)
 		(uuid "38a45721-54d9-4c0a-b164-faa4476d783b")
 		(property "Reference" "H1"
-			(at 44.45 241.2999 0)
+			(at 73.66 251.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +9919,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 44.45 243.8399 0)
+			(at 73.66 253.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +9928,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 41.91 242.57 0)
+			(at 71.12 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +9937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 242.57 0)
+			(at 71.12 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +9946,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 41.91 242.57 0)
+			(at 71.12 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,7 +10099,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 64.77 252.73 0)
+		(at 71.12 247.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9983,7 +10108,7 @@
 		(fields_autoplaced yes)
 		(uuid "430044ea-1e5a-440a-9cc2-704f6056a5ec")
 		(property "Reference" "FID6"
-			(at 67.31 251.4599 0)
+			(at 73.66 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +10117,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 67.31 253.9999 0)
+			(at 73.66 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +10126,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 64.77 252.73 0)
+			(at 71.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 252.73 0)
+			(at 71.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10144,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 64.77 252.73 0)
+			(at 71.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10153,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 64.77 252.73 0)
+			(at 71.12 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10372,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 83.82 252.73 0)
+		(at 83.82 247.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10256,7 +10381,7 @@
 		(fields_autoplaced yes)
 		(uuid "492e199c-05ec-486c-8ee7-1bc5c46cff45")
 		(property "Reference" "FID3"
-			(at 86.36 251.4599 0)
+			(at 86.36 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10390,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 86.36 253.9999 0)
+			(at 86.36 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10399,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 83.82 252.73 0)
+			(at 83.82 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 252.73 0)
+			(at 83.82 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10417,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 83.82 252.73 0)
+			(at 83.82 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10426,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 83.82 252.73 0)
+			(at 83.82 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10512,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 83.82 247.65 0)
+		(at 83.82 242.57 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10396,7 +10521,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c87b6f5-872e-4d00-8967-8b0ac11a7556")
 		(property "Reference" "FID2"
-			(at 86.36 246.3799 0)
+			(at 86.36 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +10530,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 86.36 248.9199 0)
+			(at 86.36 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +10539,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 83.82 247.65 0)
+			(at 83.82 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +10548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 247.65 0)
+			(at 83.82 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,7 +10557,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 83.82 247.65 0)
+			(at 83.82 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10441,7 +10566,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 83.82 247.65 0)
+			(at 83.82 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,25 +11624,23 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 24.13 106.68 0)
+		(at 45.72 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "6de7a7b3-39a4-4230-9000-1b6a3ce2c4a7")
 		(property "Reference" "JP1"
-			(at 24.13 100.33 0)
+			(at 45.72 249.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 24.13 102.87 0)
+			(at 45.72 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +11649,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 24.13 106.68 0)
+			(at 45.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 106.68 0)
+			(at 45.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11667,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 24.13 106.68 0)
+			(at 45.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11676,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 24.13 106.68 0)
+			(at 45.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11562,7 +11685,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 24.13 106.68 0)
+			(at 45.72 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11587,7 +11710,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 64.77 242.57 0)
+		(at 71.12 237.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11596,7 +11719,7 @@
 		(fields_autoplaced yes)
 		(uuid "712fa82b-d665-41cc-8dbc-912e39b820a3")
 		(property "Reference" "FID4"
-			(at 67.31 241.2999 0)
+			(at 73.66 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,7 +11728,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 67.31 243.8399 0)
+			(at 73.66 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11614,7 +11737,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 64.77 242.57 0)
+			(at 71.12 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 242.57 0)
+			(at 71.12 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11755,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 64.77 242.57 0)
+			(at 71.12 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11764,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 64.77 242.57 0)
+			(at 71.12 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11917,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 83.82 242.57 0)
+		(at 83.82 237.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11803,7 +11926,7 @@
 		(fields_autoplaced yes)
 		(uuid "78be2927-dfe3-4f59-9b41-e58c85fb86fa")
 		(property "Reference" "FID1"
-			(at 86.36 241.2999 0)
+			(at 86.36 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +11935,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 86.36 243.8399 0)
+			(at 86.36 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +11944,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 83.82 242.57 0)
+			(at 83.82 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11830,7 +11953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 242.57 0)
+			(at 83.82 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11962,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 83.82 242.57 0)
+			(at 83.82 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +11971,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 83.82 242.57 0)
+			(at 83.82 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14332,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 64.77 247.65 0)
+		(at 71.12 242.57 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14218,7 +14341,7 @@
 		(fields_autoplaced yes)
 		(uuid "a802e1ef-203d-4154-aec3-b45f9eae5047")
 		(property "Reference" "FID5"
-			(at 67.31 246.3799 0)
+			(at 73.66 241.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14227,7 +14350,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 67.31 248.9199 0)
+			(at 73.66 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14236,7 +14359,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 64.77 247.65 0)
+			(at 71.12 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +14368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 247.65 0)
+			(at 71.12 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,7 +14377,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 64.77 247.65 0)
+			(at 71.12 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14263,7 +14386,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 64.77 247.65 0)
+			(at 71.12 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14751,7 +14874,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 41.91 248.92 0)
+		(at 71.12 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14760,7 +14883,7 @@
 		(fields_autoplaced yes)
 		(uuid "b09c46fb-f5ce-47c3-bee3-a90a7bd4899b")
 		(property "Reference" "H2"
-			(at 44.45 247.6499 0)
+			(at 73.66 256.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14769,7 +14892,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 44.45 250.1899 0)
+			(at 73.66 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14901,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 41.91 248.92 0)
+			(at 71.12 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +14910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 248.92 0)
+			(at 71.12 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14796,7 +14919,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 41.91 248.92 0)
+			(at 71.12 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15185,73 +15308,6 @@
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 20.32 210.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b96a60ed-6e95-4e18-92b1-d8a65fff3f4c")
-		(property "Reference" "#PWR02"
-			(at 24.13 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 16.51 210.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 20.32 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "012fe4a9-0cb2-474c-9982-b4cf322430cc")
-		)
-		(instances
-			(project "ML605_LPC_Board_wADC_DAC"
-				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16947,25 +17003,24 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 24.13 210.82 0)
+		(at 45.72 257.81 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "dc5f80a3-57a9-46bb-98f8-109c058d2685")
 		(property "Reference" "JP2"
-			(at 24.13 204.47 0)
+			(at 45.72 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 24.13 207.01 0)
+			(at 45.72 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16974,7 +17029,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 24.13 210.82 0)
+			(at 45.72 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,7 +17038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 210.82 0)
+			(at 45.72 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16992,7 +17047,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 24.13 210.82 0)
+			(at 45.72 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17001,7 +17056,7 @@
 			)
 		)
 		(property "Mouser Link" "N/A"
-			(at 24.13 210.82 0)
+			(at 45.72 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17010,7 +17065,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 24.13 210.82 0)
+			(at 45.72 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17512,73 +17567,6 @@
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 20.32 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec904b91-8dba-4a66-b1d7-0aa664ed98ae")
-		(property "Reference" "#PWR01"
-			(at 13.97 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 16.51 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 20.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffd6425c-4fda-457b-aa9b-a48abe006082")
-		)
-		(instances
-			(project "ML605_LPC_Board_wADC_DAC"
-				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -19008,6 +18996,84 @@
 			(project "ML605_LPC_Board_wADC_DAC"
 				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 237.49)
+		(size 12.7 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6c4dbaf-9ed0-416d-bf2a-598c3d1d7315")
+		(property "Sheetname" "Identification_EEPROM"
+			(at 52.07 236.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Identification_EEPROM.kicad_sch"
+			(at 52.07 263.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 52.07 254 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "788cab42-bb7b-4b63-900d-a37cd1d43d65")
+		)
+		(pin "SCL" input
+			(at 52.07 256.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71e91def-26b8-4d9a-bad8-f916174504f1")
+		)
+		(pin "GA1" input
+			(at 52.07 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7667b65d-7b6f-4c26-b6b2-12eef0208923")
+		)
+		(pin "GA0" input
+			(at 52.07 243.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "655681fe-9dba-4220-827f-ff7597e0c010")
+		)
+		(instances
+			(project "ML605_LPC_Board_wADC_DAC"
+				(path "/35bdcd8d-8b21-4a24-9357-7d92e5ad0993"
+					(page "4")
 				)
 			)
 		)
